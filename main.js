@@ -17,13 +17,14 @@ server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
   if (req.method === "POST") {
     req.body.createdAt = Date.now();
+    req.body.updatedAt = Date.now();
   }
   // Continue to JSON Server router
   next();
 });
 
 // Use default router
-server.use(router);
+server.use("/api", router);
 server.listen(3000, () => {
   console.log("JSON Server is running");
 });
