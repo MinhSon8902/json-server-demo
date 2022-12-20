@@ -245,7 +245,20 @@
       "createAt": 1671505725113,
       "updateAt": 1671505725113,
       "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "e8e7db89-1e17-4b11-a5ae-866daf42e716",
+      "name": "Bui Minh Son",
+      "color": "silver",
+      "price": 456,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "thumbnailUrl": "http://placeimg.com/400/400",
+      "createdAt": 1671510435962,
+      "updatedAt": 1671510613467,
+      "id": "6bGtanS"
     }
   ],
-  "profile": { "name": "MS" }
+  "profile": {
+    "name": "MS"
+  }
 }

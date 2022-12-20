@@ -27,23 +27,29 @@ GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=5
 # @name sort
 GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=asc
 
+###
 # @name addNews
 
 POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
-  "name": "Love"
-}
+    "categoryId": "e8e7db89-1e17-4b11-a5ae-866daf42e716",
+    "name": "Small Cotton Shirt",
+    "color": "silver",
+    "price": 456,
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "thumbnailUrl": "http://placeimg.com/400/400"
+  }
 
 ###
 
 # @name update
-PATCH  {{baseUrl}}/{{resourceName}}/MyS0WFl
+PATCH  {{baseUrl}}/{{resourceName}}/6bGtanS
 Content-Type: application/json
 
 {
-  "name": "New Love"
+  "name": "Bui Minh Son"
 }
 
 ###
