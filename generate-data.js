@@ -4,11 +4,6 @@ const fs = require("fs");
 // set locale to use vietnamese
 faker.locale = "vi";
 
-// console.log(faker.datatype.uuid());
-// console.log(faker.commerce.product());
-// console.log(faker.company.companyName());
-// console.log(faker.image.cats());
-
 const randomCategoryList = (n) => {
   if (n <= 0) return [];
   const categoryList = [];
@@ -26,11 +21,37 @@ const randomCategoryList = (n) => {
   return categoryList;
 };
 
+const randomProductList = (categoryList, numberOfProducts) => {
+  if (numberOfProducts <= 0) return [];
+  const productList = [];
+
+  for (const category of categoryList) {
+    Array.from(new Array(numberOfProducts)).forEach(() => {
+      const product = {
+        categoryId: category.id,
+        id: faker.random.uuid(),
+        name: faker.commerce.productName(),
+        color: faker.commerce.color(),
+        price: faker.commerce.price(),
+        description: faker.commerce.productDescription(),
+        createAt: Date.now(),
+        updateAt: Date.now(),
+        thumbnailUrl: faker.image.imageUrl(400, 400),
+      };
+
+      productList.push(product);
+    });
+  }
+
+  return productList;
+};
+
 (() => {
   const categoryList = randomCategoryList(4);
+  const productList = randomProductList(categoryList, 5);
   const db = {
     categories: categoryList,
-    products: [],
+    products: productList,
     profile: {
       name: "MS",
     },

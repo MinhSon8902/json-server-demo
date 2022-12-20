@@ -30,4 +30,4 @@ Content-Type: application/json
 
 # @name removeCategories
 
-DELETE {{baseUrl}}/categories/vv_XCxC
+DELETE {{baseUrl}}/categories/uRwAT63

@@ -1,44 +1,251 @@
 {
   "categories": [
     {
-      "id": "e197cb13-9f67-4ff8-861a-0f5d836fbaf9",
-      "name": "Outdoors",
-      "createAt": 1671466485612,
-      "updateAt": 1671466485612
+      "id": "2f4c6044-a4c6-4897-aba8-fdfa512dafd5",
+      "name": "Tools",
+      "createAt": 1671469749350,
+      "updateAt": 1671469749350
     },
     {
-      "id": "86907d40-6596-49a7-a034-209bfbd4068d",
-      "name": "Kids",
-      "createAt": 1671466485612,
-      "updateAt": 1671466485612
+      "id": "e80b257f-ce1c-4a26-bf5b-a1799de419a3",
+      "name": "Health",
+      "createAt": 1671469749351,
+      "updateAt": 1671469749351
     },
     {
-      "id": "77990405-2913-473c-a008-fee9cbec6dd4",
-      "name": "Games",
-      "createAt": 1671466485612,
-      "updateAt": 1671466485612
+      "id": "318aed24-0b49-48ff-a277-62ebdd1212eb",
+      "name": "Tools",
+      "createAt": 1671469749351,
+      "updateAt": 1671469749351
     },
     {
-      "id": "ec59111b-b737-496f-811f-17f90570b7a9",
-      "name": "Shoes",
-      "createAt": 1671466485613,
-      "updateAt": 1671466485613
-    },
-    {
-      "name": "Love",
-      "createdAt": 1671468357282,
-      "updatedAt": 1671468357282,
-      "id": "54tjD9R"
-    },
-    {
-      "name": "Love",
-      "createdAt": 1671468360947,
-      "updatedAt": 1671468360947,
-      "id": "uRwAT63"
+      "id": "df52fa5f-7b09-4089-92fe-dae9f260bcd9",
+      "name": "Movies",
+      "createAt": 1671469749351,
+      "updateAt": 1671469749351
     }
   ],
-  "products": [],
-  "profile": {
-    "name": "MS"
-  }
+  "products": [
+    {
+      "categoryId": "2f4c6044-a4c6-4897-aba8-fdfa512dafd5",
+      "id": "7a32fb61-5b94-429f-bdc1-9262aea4ee0f",
+      "name": "Awesome Cotton Sausages",
+      "color": "azure",
+      "price": "574.00",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1671469749352,
+      "updateAt": 1671469749352,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f4c6044-a4c6-4897-aba8-fdfa512dafd5",
+      "id": "ed13b02e-d85d-44dd-a568-237a20ea5fa5",
+      "name": "Intelligent Steel Tuna",
+      "color": "ivory",
+      "price": "114.00",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createAt": 1671469749353,
+      "updateAt": 1671469749353,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f4c6044-a4c6-4897-aba8-fdfa512dafd5",
+      "id": "22abf3c6-10ad-45f3-950c-3dc73328be9b",
+      "name": "Rustic Wooden Chair",
+      "color": "blue",
+      "price": "957.00",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createAt": 1671469749354,
+      "updateAt": 1671469749354,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f4c6044-a4c6-4897-aba8-fdfa512dafd5",
+      "id": "f9076eee-79cd-4f8c-a15d-83738d961567",
+      "name": "Handmade Rubber Gloves",
+      "color": "tan",
+      "price": "750.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1671469749354,
+      "updateAt": 1671469749354,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2f4c6044-a4c6-4897-aba8-fdfa512dafd5",
+      "id": "851ab424-91ba-4239-ab4f-2ad8053dbb6f",
+      "name": "Tasty Soft Tuna",
+      "color": "orange",
+      "price": "729.00",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createAt": 1671469749355,
+      "updateAt": 1671469749355,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "e80b257f-ce1c-4a26-bf5b-a1799de419a3",
+      "id": "853a621e-3a75-40fc-b0e2-91ed5e953c16",
+      "name": "Refined Steel Tuna",
+      "color": "plum",
+      "price": "31.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1671469749355,
+      "updateAt": 1671469749355,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "e80b257f-ce1c-4a26-bf5b-a1799de419a3",
+      "id": "560560b6-8717-4df0-967e-5c65cb72a361",
+      "name": "Practical Frozen Gloves",
+      "color": "sky blue",
+      "price": "965.00",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1671469749356,
+      "updateAt": 1671469749356,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "e80b257f-ce1c-4a26-bf5b-a1799de419a3",
+      "id": "3b4796f6-3bbe-40f8-ba91-f6e66e8d7772",
+      "name": "Incredible Cotton Soap",
+      "color": "silver",
+      "price": "740.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1671469749356,
+      "updateAt": 1671469749356,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "e80b257f-ce1c-4a26-bf5b-a1799de419a3",
+      "id": "a08c69df-3a51-49f5-bd1c-ae5c54caedff",
+      "name": "Licensed Granite Bike",
+      "color": "mint green",
+      "price": "63.00",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createAt": 1671469749357,
+      "updateAt": 1671469749357,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "e80b257f-ce1c-4a26-bf5b-a1799de419a3",
+      "id": "618bab08-a579-41e8-8501-a212c1cfe5e9",
+      "name": "Practical Cotton Pants",
+      "color": "orange",
+      "price": "230.00",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1671469749357,
+      "updateAt": 1671469749357,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "318aed24-0b49-48ff-a277-62ebdd1212eb",
+      "id": "6c8f9506-3494-4297-8379-d54b95f46c0a",
+      "name": "Tasty Plastic Chicken",
+      "color": "sky blue",
+      "price": "410.00",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createAt": 1671469749358,
+      "updateAt": 1671469749358,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "318aed24-0b49-48ff-a277-62ebdd1212eb",
+      "id": "a4bb08ea-e3af-4461-9ec5-9e4578a6d21c",
+      "name": "Handcrafted Steel Mouse",
+      "color": "fuchsia",
+      "price": "306.00",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createAt": 1671469749358,
+      "updateAt": 1671469749358,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "318aed24-0b49-48ff-a277-62ebdd1212eb",
+      "id": "f38f5f7f-59c1-47d1-88f8-6f97605b64e5",
+      "name": "Ergonomic Soft Pants",
+      "color": "yellow",
+      "price": "307.00",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createAt": 1671469749359,
+      "updateAt": 1671469749359,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "318aed24-0b49-48ff-a277-62ebdd1212eb",
+      "id": "d3dc905a-e57f-4420-9990-f67cb80f82bf",
+      "name": "Incredible Cotton Car",
+      "color": "black",
+      "price": "817.00",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createAt": 1671469749359,
+      "updateAt": 1671469749359,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "318aed24-0b49-48ff-a277-62ebdd1212eb",
+      "id": "fc2b7572-c48b-445a-9e44-509e9a8df438",
+      "name": "Practical Metal Mouse",
+      "color": "cyan",
+      "price": "142.00",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createAt": 1671469749359,
+      "updateAt": 1671469749359,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "df52fa5f-7b09-4089-92fe-dae9f260bcd9",
+      "id": "36c6f30a-8940-4c8c-9eab-0e12ddb98e0d",
+      "name": "Handcrafted Plastic Tuna",
+      "color": "lime",
+      "price": "755.00",
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createAt": 1671469749360,
+      "updateAt": 1671469749360,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "df52fa5f-7b09-4089-92fe-dae9f260bcd9",
+      "id": "78c67bd6-916c-42c9-a851-1f3b5ad9efcb",
+      "name": "Handmade Plastic Mouse",
+      "color": "lavender",
+      "price": "408.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1671469749360,
+      "updateAt": 1671469749360,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "df52fa5f-7b09-4089-92fe-dae9f260bcd9",
+      "id": "8467a34a-1907-4d44-9442-c79abce7533a",
+      "name": "Refined Metal Bike",
+      "color": "indigo",
+      "price": "40.00",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1671469749361,
+      "updateAt": 1671469749361,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "df52fa5f-7b09-4089-92fe-dae9f260bcd9",
+      "id": "142143b2-0fd6-4fd6-bc53-91821147aa6f",
+      "name": "Generic Steel Chair",
+      "color": "lime",
+      "price": "535.00",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createAt": 1671469749361,
+      "updateAt": 1671469749361,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "df52fa5f-7b09-4089-92fe-dae9f260bcd9",
+      "id": "d5ed325a-1957-4b3a-b6a2-7084522fe433",
+      "name": "Ergonomic Plastic Car",
+      "color": "teal",
+      "price": "497.00",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createAt": 1671469749361,
+      "updateAt": 1671469749361,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    }
+  ],
+  "profile": { "name": "MS" }
 }
