@@ -1,8 +1,8 @@
-const faker = require("faker");
-const fs = require("fs");
+const { faker } = require('@faker-js/faker');
+const fs = require('fs');
 
 // set locale to use vietnamese
-faker.locale = "vi";
+faker.setLocale = 'vi';
 
 const randomCategoryList = (n) => {
   if (n <= 0) return [];
@@ -10,7 +10,7 @@ const randomCategoryList = (n) => {
 
   Array.from(new Array(n)).forEach(() => {
     const category = {
-      id: faker.random.uuid(),
+      id: faker.datatype.uuid(),
       name: faker.commerce.department(),
       createAt: Date.now(),
       updateAt: Date.now(),
@@ -29,14 +29,14 @@ const randomProductList = (categoryList, numberOfProducts) => {
     Array.from(new Array(numberOfProducts)).forEach(() => {
       const product = {
         categoryId: category.id,
-        id: faker.random.uuid(),
+        id: faker.datatype.uuid(),
         name: faker.commerce.productName(),
         color: faker.commerce.color(),
-        price: Number.parseFloat(faker.commerce.price()),
+        price: faker.commerce.price(1, 1000, 0, '$'),
         description: faker.commerce.productDescription(),
         createAt: Date.now(),
         updateAt: Date.now(),
-        thumbnailUrl: faker.image.imageUrl(400, 400),
+        thumbnailUrl: faker.image.imageUrl(400, 400, '', true),
       };
 
       productList.push(product);
@@ -53,11 +53,11 @@ const randomProductList = (categoryList, numberOfProducts) => {
     categories: categoryList,
     products: productList,
     profile: {
-      name: "MS",
+      name: 'MS',
     },
   };
 
-  fs.writeFile("db.json", JSON.stringify(db), () => {
-    console.log("Generate data successfully !");
+  fs.writeFile('db.json', JSON.stringify(db), () => {
+    console.log('Generate data successfully !');
   });
 })();
